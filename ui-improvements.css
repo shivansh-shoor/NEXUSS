@@ -72,3 +72,12 @@ main,
 body {
   color: #2f2b25;
 }
+/* Force override all Tailwind bg-white */
+[class*="bg-white"] {
+  background-color: #fffaf0 !important;
+}
+
+/* Force background for sections */
+section {
+  background-color: #f0ead6 !important;
+}
